@@ -1,9 +1,11 @@
 {
-    "home": {
-        "welcome": "Bienvenue sur notre site multilingue!"
+    "greeting": {
+        "welcome": "Bienvenue dans notre application !",
+        "label": "Message de bienvenue"
     },
     "about": {
         "title": "À propos de nous",
-        "description": "Ceci est un simple boilerplate pour créer des applications Next.js multilingues."
+        "description": "Nous sommes une application web moderne axée sur la fourniture de solutions numériques de haute qualité avec performance, évolutivité et expérience utilisateur.",
+        "cta_label": "Aller à l'accueil"
     }
 }

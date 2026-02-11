@@ -1,9 +1,11 @@
 {
-    "home": {
-        "welcome": "Welcome to our multilingual Next.js boilerplate!"
+    "greeting": {
+        "welcome": "Welcome to our application!",
+        "label": "Greeting Message"
     },
     "about": {
         "title": "About Us",
-        "description": "This is a simple boilerplate for building multilingual Next.js applications."
+        "description": "We are a modern web application focused on delivering high-quality digital solutions with performance, scalability, and user experience in mind.",
+        "cta_label": "Go to Home"
     }
 }

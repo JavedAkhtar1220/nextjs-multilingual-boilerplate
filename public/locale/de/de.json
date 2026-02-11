@@ -1,0 +1,11 @@
+{
+    "greeting": {
+        "welcome": "Willkommen in unserer Anwendung!",
+        "label": "Begrüßungsnachricht"
+    },
+    "about": {
+        "title": "Über uns",
+        "description": "Wir sind eine moderne Webanwendung, die sich auf hochwertige digitale Lösungen mit Fokus auf Leistung, Skalierbarkeit und Benutzererfahrung konzentriert.",
+        "cta_label": "Zur Startseite"
+    }
+}
