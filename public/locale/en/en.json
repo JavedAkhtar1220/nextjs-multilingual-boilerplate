@@ -1,0 +1,9 @@
+{
+    "home": {
+        "welcome": "Welcome to our multilingual Next.js boilerplate!"
+    },
+    "about": {
+        "title": "About Us",
+        "description": "This is a simple boilerplate for building multilingual Next.js applications."
+    }
+}
