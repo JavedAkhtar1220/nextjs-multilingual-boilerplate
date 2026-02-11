@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { routing } from "@/i18n/routing";
+import "../globals.css";
 
 type Props = {
   children: React.ReactNode;
@@ -13,7 +14,6 @@ export default async function LocaleLayout({ children, params }: Props) {
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
-  console.log("locale at layout:>> ", locale);
   const messages = await getMessages({ locale });
 
   return (
